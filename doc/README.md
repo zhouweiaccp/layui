@@ -4,3 +4,8 @@
 
 # 在线文档
 [http://www.layui.com/doc/](http://www.layui.com/doc/)
+
+
+#开发手册
+npm install 
+gulp layim
