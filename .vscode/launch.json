@@ -8,7 +8,11 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\layui.js"
+            "args": ["all"],
+            "runtimeArgs": [
+                "run-script", "test:cov"    //这里的dev就对应package.json中的scripts中的dev
+              ],
+            "program": "${workspaceFolder}\\gulpfile.js"
         }
     ]
 }
