@@ -4,15 +4,26 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+       
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launcgulpfile",
             "args": ["all"],
-            "runtimeArgs": [
-                "run-script", "test:cov"    //这里的dev就对应package.json中的scripts中的dev
-              ],
-            "program": "${workspaceFolder}\\gulpfile.js"
+            // "runtimeArgs": [
+            //     "run-script", "test:cov"    //这里的dev就对应package.json中的scripts中的dev
+            //   ],
+            "program": "${workspaceFolder}/gulpfile.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launcg2",
+            // "args": ["all"],
+            // "runtimeArgs": [
+            //     "run-script", "debug"    //这里的dev就对应package.json中的scripts中的dev
+            //   ],
+            "program": "${workspaceFolder}/src/lay/modules/colorpicker.js"
         }
     ]
 }
