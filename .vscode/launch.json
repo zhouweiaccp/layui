@@ -7,11 +7,20 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "args": [
+                "task"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Program",
             "args": ["all"],
-            "runtimeArgs": [
-                "run-script", "test:cov"    //这里的dev就对应package.json中的scripts中的dev
-              ],
+            // "runtimeArgs": [
+            //     "run-script", "test:cov"    //这里的dev就对应package.json中的scripts中的dev
+            //   ],
             "program": "${workspaceFolder}\\gulpfile.js"
         }
     ]
