@@ -3,6 +3,9 @@
 
 
 ## 安装
+npm config  list
+npm config set registry https://registry.npm.taobao.org
+sudo npm install -g  cnpm
 cnpm install 
 cnpm install -g gulp
 
