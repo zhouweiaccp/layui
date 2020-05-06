@@ -3,6 +3,7 @@
 
 
 ## 安装
+https://cdn.npm.taobao.org/dist/node/v10.19.0/node-v10.19.0-x64.msi [最新版不能调试
 npm config  list
 npm config set registry https://registry.npm.taobao.org
 sudo npm install -g  cnpm
