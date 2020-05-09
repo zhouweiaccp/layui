@@ -32,3 +32,4 @@ rc/
 
 coverage/
 package-lock.json
+web.config
