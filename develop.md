@@ -34,7 +34,7 @@ https://github.com/yelog/layui-soul-table
 # 项目
 - [layuiExtend](https://github.com/hsiangleev/layuiExtend)
 - [DTreeHelper](http://www.wisdomelon.com/DTreeHelper/)  树tree
-- []()
+- [zui](https://github.com/easysoft/zui/blob/master/docs/examples/datagrid.html) 禅道
 - []()
 - []()
 - []()
